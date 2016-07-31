@@ -33,7 +33,7 @@ interface TinyMceStatic extends TinyMceObservable {
     execCommand: (c:string, u:Boolean, v:string) => Boolean;
     activeEditor: TinyMceEditor;
     get: (id:String) => TinyMceEditor;
-    remove (id:String): => void;
+    remove: (id:String): => void;
 }
 
 declare var tinymce:TinyMceStatic;
